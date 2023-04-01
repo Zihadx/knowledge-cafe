@@ -8,8 +8,8 @@ const CountTime = ({readTime}) => {
   }, [readTime]);
   return (
     <div className="bg bg-blue-200 h-full rounded-md border-2 border-blue-700 text-blue-800">
-     <div>
-     <h1 className="text-2xl font-bold p-3">Spent time on read : <input type="text" className="w-20 rounded text-center" value={time}/></h1>
+     <div className="text-center">
+     <h1 className="text-2xl font-bold p-3">Spent time on read : <br /> <input type="text" className="w-20 rounded text-center mr-2" value={time}/>min</h1>
       
      </div>
     </div>

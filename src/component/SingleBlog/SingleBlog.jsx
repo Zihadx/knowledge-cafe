@@ -5,11 +5,9 @@ import { addToDb } from "../FakeDb/FakeDb";
 
 
 const SingleBlog = ({blog,handleReadTime}) => {
-  // console.log(props)
   const { picture, img, author, date, read, title ,id,} = blog;
-  // console.log(blog)
+  
   const addToCart = (id)=>{
-    // console.log('added')
     addToDb(id)
   }
   return (

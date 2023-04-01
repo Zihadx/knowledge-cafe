@@ -1,4 +1,4 @@
-const addToDb = id =>{
+const addToDb = (id,) =>{
     const quantity = localStorage.getItem(id);
     if(quantity){
         console.log('already exist')
