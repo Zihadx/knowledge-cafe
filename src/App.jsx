@@ -9,16 +9,16 @@ import CountTime from "./component/CountTime/CountTime";
 import QuestionAndAnswer from "./component/QuestionAndAnswer/QuestionAndAnswer";
 
 function App() {
-  const [readTime , setReadTime]= useState("")
+  const [readTime, setReadTime] = useState("");
   const handleReadTime = (time) => {
     const previousReadTime = JSON.parse(localStorage.getItem("readTime"));
     if (previousReadTime) {
       const presentReadTime = parseInt(previousReadTime + +time);
       localStorage.setItem("readTime", presentReadTime);
-      setReadTime(presentReadTime)
+      setReadTime(presentReadTime);
     } else {
       localStorage.setItem("readTime", time);
-      setReadTime(time)
+      setReadTime(time);
     }
   };
   return (
