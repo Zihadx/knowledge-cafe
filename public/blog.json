@@ -1,0 +1,34 @@
+[
+    {
+      "id": "64278a71bf61a01162155b6a",
+      "picture": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1060&t=st=1680313575~exp=1680314175~hmac=586f7151ee7cce97706362997037b411be617a865a794c36a9f64519633c82ce",
+      "author": "Shelton Martinez",
+      "img":"https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=1060&t=st=1680313855~exp=1680314455~hmac=b8cf3bd3d2329341fef384637e2976265f613090e1844d60aad3eee81a9ac899",
+      "read":"15",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "64278a71afc67c371b708831",
+      "picture": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1060&t=st=1680313682~exp=1680314282~hmac=1bd8bc48e1a12ea6e05340ee9567f51296f461e70d9b170dd7b1fad5ede560f2",
+      "author": "Whitley Mcbride",
+      "img":"https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=1060&t=st=1680313893~exp=1680314493~hmac=11a11348f0a54e7bd04f6685c8ec1cc5a0178dda6b9b76673004f7707c12f959",
+      "read":"12",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "64278a712e6ebe62684f6b35",
+      "picture": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010142.jpg?w=1060&t=st=1680313725~exp=1680314325~hmac=a26b6a035c05bfe185ff06aa3a6dc231a6a94975d612ab5ece668eb500af0316",
+      "author": "Tasha Washington",
+      "img":"https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg?w=1060&t=st=1680313929~exp=1680314529~hmac=cca8ba89e2dc7043ef9f552c29328e4a4b62da0cbcce394b3c0a7b191c866945",
+      "read":"18",
+      "title": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "id": "64278a719e661c1e78428af1",
+      "picture": "https://img.freepik.com/free-vector/wireframe-robot-ai-artificial-intelligence-robotic-hand-machine-learning-cyber-mind-domination-concept_127544-854.jpg?w=1060&t=st=1680313806~exp=1680314406~hmac=49aafd8b1458982b76b5bebb41bc34791a81c85d560b36bf6d2cf1adf6e4f798",
+      "author": "Lucile Bradshaw",
+      "img":"https://img.freepik.com/free-photo/attractive-young-african-american-male-dressed-casually-looking-camera_273609-9402.jpg?w=1060&t=st=1680313974~exp=1680314574~hmac=9ff8693b7b2393b9e8ab90b32d4cf10aec103e078e9ec27b8b29ca3b86549d69",
+      "read":"10",
+      "title": "How to get your first job as a self-taught programmer"
+    }
+  ]
