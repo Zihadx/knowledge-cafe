@@ -10,7 +10,7 @@ const Blogs = () => {
     }, []);
     return (
         <div className='blog-container'>
-           {blogs.map((blog) => (<SingleBlog blog={blog}></SingleBlog>))}
+           {blogs.map((blog) => (<SingleBlog blog={blog} key={blog.id}></SingleBlog>))}
             
         </div>
     );

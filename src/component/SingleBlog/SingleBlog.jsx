@@ -1,12 +1,17 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from "../FakeDb/FakeDb";
 
 
 const SingleBlog = (props) => {
   // console.log(props)
-  const { picture, img, author, date, read,title } = props.blog;
+  const { picture, img, author, date, read,title ,id} = props.blog;
   // console.log(blog)
+  const addToCart = (id)=>{
+    // console.log('added')
+    addToDb(id)
+  }
   return (
     <div className="p-4 shadow-xl mt-4">
       <img className="w-full rounded-lg" src={picture} alt="" />
@@ -21,8 +26,8 @@ const SingleBlog = (props) => {
       <div>
         <p>
             {read} minutes read
-             <span className="ms-2"><FontAwesomeIcon icon={faBookBookmark} /></span> 
-             </p>
+             <span onClick={()=>addToCart(id)} className="ms-2"><FontAwesomeIcon icon={faBookBookmark} /></span> 
+        </p>
       </div>
       </div>
       <h1 className="text-5xl font-semibold mb-8 mt-8">{title}</h1>
