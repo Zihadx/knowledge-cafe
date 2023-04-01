@@ -1,13 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import SingleBlog from '../SingleBlog/SingleBlog';
 
 const Blogs = () => {
-    useEffect(()=>{
-        fetch('blog.json')
-        .then(res => res.json())
-        .then(data => console.log(data))
-    })
+    const [blogs, setBlogs]= useState([]);
+    useEffect(() =>{
+        fetch("blog.json")
+        .then((res) => res.json())
+        .then((data) => setBlogs(data))
+    }, []);
     return (
-        <div>
+        <div className='blog-container'>
+           {blogs.map((blog) => (<SingleBlog blog={blog}></SingleBlog>))}
             
         </div>
     );
