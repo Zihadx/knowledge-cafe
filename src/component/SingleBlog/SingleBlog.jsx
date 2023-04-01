@@ -20,7 +20,7 @@ const SingleBlog = (props) => {
       </div>
       </div>
       <h1 className="text-5xl font-semibold mb-8 mt-8">{title}</h1>
-      <a className="text-2xl font-normal text-blue-600 underline hover:text-orange-400" href="">Mark as read</a>
+      <button className="text-2xl font-normal text-blue-600 underline hover:text-orange-400" href="">Mark as read</button>
     </div>
   );
 };
