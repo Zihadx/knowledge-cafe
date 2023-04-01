@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { addToDb } from "../FakeDb/FakeDb";
 
 
-const SingleBlog = (props) => {
+const SingleBlog = ({blog,handleReadTime}) => {
   // console.log(props)
-  const { picture, img, author, date, read,title ,id} = props.blog;
+  const { picture, img, author, date, read, title ,id,} = blog;
   // console.log(blog)
   const addToCart = (id)=>{
     // console.log('added')
@@ -28,10 +28,10 @@ const SingleBlog = (props) => {
             {read} minutes read
              <span onClick={()=>addToCart(id)} className="ms-2"><FontAwesomeIcon icon={faBookBookmark} /></span> 
         </p>
-      </div>
+      </div> 
       </div>
       <h1 className="text-5xl font-semibold mb-8 mt-8">{title}</h1>
-      <button className="text-2xl font-normal text-blue-600 underline hover:text-orange-400" href="">Mark as read </button>
+      <button onClick={()=> handleReadTime(read)} className="text-2xl font-normal text-blue-600 underline hover:text-orange-400" href="">Mark as read </button>
     </div>
   );
 };
