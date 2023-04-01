@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Header></Header>
       <div className="main md:px-12 md:flex">
-        <div className="blog-container grid grid-cols-1 md:grid-8 ">
+        <div className="blog-container grid grid-cols-1 md:grid-8 gap-4 ">
           <Blogs></Blogs>
         </div>
         <div className="sidebar md:grid-4">
-          <div className="mt-4">
+          <div className="mt-8">
           <CountTime></CountTime>
           </div>
          <div className="mt-4 bg-gray-300 h-full rounded">
